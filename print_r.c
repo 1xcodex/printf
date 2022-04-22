@@ -5,9 +5,9 @@
  * (0 < ASCII value < 32 or >= 127) are
  * printed this way: \x, followed by the ASCII code
  * value in hexadecimal (upper case - always 2 characters)
- * @l: va_list arguments from _printf
+ * @l: va_list arguments from the _printf
  * @f: pointer to the struct flags that determines
- * if a flag is passed to _printf
+ * if a flag is passed to the _printf
  * Return: number of char printed
  */
 int print_bigS(va_list l, flags_t *f)
@@ -41,7 +41,7 @@ int print_bigS(va_list l, flags_t *f)
  * print_rev - prints a string in reverse
  * @l: argument from _printf
  * @f: pointer to the struct flags that determines
- * if a flag is passed to _printf
+ * if a flag is passed to the _printf
  * Return: length of the printed string
  */
 int print_rev(va_list l, flags_t *f)

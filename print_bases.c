@@ -3,7 +3,7 @@
 /**
  * print_hex - prints a number in hexadecimal base,
  * in lowercase
- * @l: va_list arguments from _printf
+ * @l: va_list arguments from the _printf
  * @f: pointer to the struct flags that determines
  * if a flag is passed to _printf
  * Description: the function calls convert() which in turns converts the input
@@ -26,7 +26,7 @@ int print_hex(va_list l, flags_t *f)
  * print_hex_big - prints a number in hexadecimal base,
  * in uppercase
  * @l: va_list arguments from _printf
- * @f: pointer to the struct that determines
+ * @f: pointer to the struct and that determines
  * if a flag is passed to _printf
  * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
