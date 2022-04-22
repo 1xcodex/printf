@@ -49,4 +49,15 @@ int print_rev(va_list l, flags_t *f);
 int print_bigS(va_list l, flags_t *f);
 int print_address(va_list l, flags_t *f);
 int print_percent(va_list l, flags_t *f);
+
+int prinlint(va_list arguments, char *buf, unsigned int ibuf);
+int prinlunt(va_list arguments, char *buf, unsigned int ibuf);
+int prinloct(va_list arguments, char *buf, unsigned int ibuf);
+int prinlhex(va_list arguments, char *buf, unsigned int ibuf);
+int prinlupx(va_list arguments, char *buf, unsigned int ibuf);
+int prinhint(va_list arguments, char *buf, unsigned int ibuf);
+int prinhunt(va_list arguments, char *buf, unsigned int ibuf);
+int prinhoct(va_list arguments, char *buf, unsigned int ibuf);
+int prinhhex(va_list arguments, char *buf, unsigned int ibuf);
+int prinhupx(va_list arguments, char *buf, unsigned int ibuf);
 #endif
