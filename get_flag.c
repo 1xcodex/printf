@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_flag - turns on flags if _printf finds
+ * get_flag - turns on the flags of if _printf finds
  * @s: character that holds the flag specifier
  * @f: pointer to the struct flags in which we turn the flags on
  *
